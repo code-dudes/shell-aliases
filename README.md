@@ -1,2 +1,1 @@
-# shell-aliases
-10X Developer shortcuts 
+# 10X Developer shortcuts 
