@@ -1,1 +1,5 @@
-alias home='cd ~/'
+alias home='echo "cd ~/" && cd ~/'
+alias ..='echo "cd .." && cd ..'
+alias ..1='echo "cd .." && cd ..'
+alias ..2='echo "cd ../.." && cd ../..'
+alias ..3='echo "cd ../../.." && cd ../../..'
