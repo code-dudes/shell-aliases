@@ -37,7 +37,7 @@ OR
 
 Just copy and paste below code into terminal directly. This  only works for bash and zsh.  
 ```
-echo 'downloading aliases`
+echo 'downloading aliases'
 shell=`echo $SHELL | rev | cut -d'/' -f1 | rev`
 
 if curl --silent --show-error --fail https://raw.githubusercontent.com/code-dudes/shell-aliases/main/.shell_aliases -o ~/.shell_aliases > /dev/null; then
