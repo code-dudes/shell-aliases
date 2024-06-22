@@ -1,5 +1,44 @@
+
 alias home='echo "cd ~/" && cd ~/'
 alias ..='echo "cd .." && cd ..'
 alias ..1='echo "cd .." && cd ..'
 alias ..2='echo "cd ../.." && cd ../..'
 alias ..3='echo "cd ../../.." && cd ../../..'
+
+alias c=`echo "clear" && clear'
+alias clr=`echo "clear" && clear'
+
+## Git commands
+# general
+alias gs='echo "git status" && git status'
+alias gd='echo "git diff" && git diff' 
+alias gl='echo "git log" && git log'
+# add
+alias ga='echo "git add" && git add'
+alias gau='echo "git add -u (add all updated files)" && git add -u'
+alias gaa='echo "git add . (stage all changes)" && git add .'
+# commit
+alias gc='echo "git commit" && git commit'
+alias gca='echo "git commit --amend" && git commit --amend'
+alias gcm='echo "git commit -m" && git commit -m'
+# push, pull, rebase
+alias gpu='echo "git push" && git push'
+alias gpf='echo "git push --force" && git push --force'
+alias gpr='echo "git pull --rebase" && git pull --rebase'
+alias gr='echo "git rebase" && git rebase'
+alias grc='echo "git rebase --continue" && git rebase --continue'
+alias gra='echo "git rebase --abort" && git rebase --abort'
+# checkout
+alias gco='echo "git checkout" && git checkout'
+alias gcb='echo "git checkout -b" && git checkout -b'
+alias gm='echo "git merge" && git merge'
+# stash
+alias gst='echo "git stash" && git stash'
+alias gsp='echo "git stash pop" && git stash pop'
+alias gsl='echo "git stash list" && git stash list'
+# branching
+alias gb='echo "git branch" && git branch'
+alias gba='echo "git branch -a" && git branch -a'
+alias gbd='echo "git branch -d" && git branch -d'
+# cherry pick
+alias gcp='echo "git cherry-pick" && git cherry-pick'
