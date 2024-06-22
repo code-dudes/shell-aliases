@@ -5,8 +5,8 @@ alias ..1='echo "cd .." && cd ..'
 alias ..2='echo "cd ../.." && cd ../..'
 alias ..3='echo "cd ../../.." && cd ../../..'
 
-alias c=`echo "clear" && clear'
-alias clr=`echo "clear" && clear'
+alias c='echo "clear" && clear'
+alias clr='echo "clear" && clear'
 
 ## Git commands
 # general
