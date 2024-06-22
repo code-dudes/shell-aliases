@@ -1,4 +1,8 @@
+# network
+alias myip='echo "curl ifconfig.me" &&  curl ifconfig.me'
+alias pyhttp='echo"python3 -m http.server" && python3 -m http.server" # usage: pyhttp or pyhttp 8080
 
+# directory
 alias home='echo "cd ~/" && cd ~/'
 alias ..='echo "cd .." && cd ..'
 alias ..1='echo "cd .." && cd ..'
