@@ -1,3 +1,5 @@
+alias ea='echo "edit shell aliases" && "${EDITOR:-vi}" ~/.shell_aliases'
+
 # network
 alias myip='echo "curl ifconfig.me" &&  curl ifconfig.me'
 alias pyhttp='echo "python3 -m http.server" && python3 -m http.server' # usage: pyhttp or pyhttp 8080
@@ -10,6 +12,7 @@ alias ..2='echo "cd ../.." && cd ../..'
 alias ..3='echo "cd ../../.." && cd ../../..'
 
 alias c='echo "clear" && clear'
+alias cls='echo "clear" && clear'
 alias clr='echo "clear" && clear'
 
 ## Git commands
@@ -26,8 +29,9 @@ alias gc='echo "git commit" && git commit'
 alias gca='echo "git commit --amend" && git commit --amend'
 alias gcm='echo "git commit -m" && git commit -m'
 # push, pull, rebase
-alias gpu='echo "git push" && git push'
+alias gp='echo "git push" && git push'
 alias gpf='echo "git push --force" && git push --force'
+alias gpom='echo "git push origin master" && git push origin master'
 alias gpr='echo "git pull --rebase" && git pull --rebase'
 alias gr='echo "git rebase" && git rebase'
 alias grc='echo "git rebase --continue" && git rebase --continue'
