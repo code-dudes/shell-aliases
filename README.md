@@ -43,10 +43,10 @@ shell=`echo $SHELL | rev | cut -d'/' -f1 | rev`
 if curl --silent --show-error --fail https://raw.githubusercontent.com/code-dudes/shell-aliases/main/.shell_aliases -o ~/.shell_aliases > /dev/null; then
   if [ $shell == 'bash' ]; then
   	echo 'using bash'
-    (ls  ~/.bashrc || echo '.bashrc does not exist') && echo 'source ~/.shell_aliases' >> ~/.bashrc  && echo 'updated profile' 
+    (ls  ~/.bashrc || echo '.bashrc does not exist') && echo 'source ~/.shell_aliases' >> ~/.bashrc  && echo 'updated profile' && source ~/.bashrc 
   elif [ $shell == 'zsh' ]; then
   	echo 'using zsh'
-    (ls  ~/.zshrc || echo '.bashrc does not exist') && echo 'source ~/.shell_aliases' >> ~/.zshrc && echo 'updated profile'
+    (ls  ~/.zshrc || echo '.zshrc does not exist') && echo 'source ~/.shell_aliases' >> ~/.zshrc && echo 'updated profile' && source ~/.zshrc
   else
   	echo 'not supported, source alias file manually'
   fi
