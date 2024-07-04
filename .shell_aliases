@@ -31,7 +31,7 @@ alias gcm='echo "git commit -m" && git commit -m'
 # push, pull, rebase
 alias gp='echo "git push" && git push'
 alias gpf='echo "git push --force" && git push --force'
-alias gpom='echo "git push origin master" && git push origin master'
+alias gpom='echo "git push origin main" && git push origin main'
 alias gpr='echo "git pull --rebase" && git pull --rebase'
 alias gr='echo "git rebase" && git rebase'
 alias grc='echo "git rebase --continue" && git rebase --continue'
